@@ -1,0 +1,54 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*:root{
+    font-family: 'Kaushan Script', cursive;
+}
+body{
+    background-color: rgb(28, 27, 27);
+}
+  h1 {
+    display: block;
+    text-align: center;
+    color: rgb(225, 126, 143);
+    font-size: 60px;
+    background-color: rgb(28, 27, 27);
+    margin-top: 10px;
+    
+    
+}
+
+
+    
+
+.dessins-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.dessins-list .amicalement,
+.dessins-list .daufin,
+.dessins-list .oisseau,
+.dessins-list .chat{
+    display: block;
+   
+    
+    
+    margin: auto;
+    padding: auto;
+    gap: 2rem;
+    border: solid rgb(225, 126, 143); 
+    border-width: 8px;
+    border-style: double;   
+
+}
+.dessins-list img{
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+    gap:4rem;
+}
+.crayons .crayon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
